@@ -20,7 +20,7 @@ To build the final optimized table, I applied five main strategies:
 
 5. Filtering out anomalies: Removed bad data (like $0 trips from broken meters) right at the source so it doesn't break future analysis.
 
-## 📊 The Results: 99.7% Cost Reduction
+## The Results: 99.7% Cost Reduction
 
 To prove the efficiency of the new architecture, a standard query—pulling fare details for a single day (New Year's Day 2022)—was executed against both the raw table and the optimized table.
 
